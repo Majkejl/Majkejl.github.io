@@ -1,3 +1,0 @@
-# Majkejl.github.io
-
-lol
