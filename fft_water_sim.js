@@ -35,7 +35,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\misic\AppData\Local\Temp\tmpn2wjy9z1.js
+// include: C:\Users\misic\AppData\Local\Temp\tmp8v7wwrkr.js
 
   if (!Module['expectedDataFileDownloads']) {
     Module['expectedDataFileDownloads'] = 0;
@@ -225,25 +225,25 @@ Module['FS_createPath']("/C:/Users/misic/source/repos/fft_water_sim_", "resource
     }
 
     }
-    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/shader.wgsl", "start": 0, "end": 1424}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 1424, "end": 1958}], "remote_package_size": 1958});
+    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/shader.wgsl", "start": 0, "end": 1417}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 1417, "end": 1951}], "remote_package_size": 1951});
 
   })();
 
-// end include: C:\Users\misic\AppData\Local\Temp\tmpn2wjy9z1.js
-// include: C:\Users\misic\AppData\Local\Temp\tmpbywm7grd.js
+// end include: C:\Users\misic\AppData\Local\Temp\tmp8v7wwrkr.js
+// include: C:\Users\misic\AppData\Local\Temp\tmpfi5rnltq.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\misic\AppData\Local\Temp\tmpbywm7grd.js
-// include: C:\Users\misic\AppData\Local\Temp\tmpl4i2kud1.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmpfi5rnltq.js
+// include: C:\Users\misic\AppData\Local\Temp\tmp43pdlksk.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\misic\AppData\Local\Temp\tmpl4i2kud1.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmp43pdlksk.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -6655,8 +6655,6 @@ function dbg(...args) {
 
   var _glfwDestroyWindow = (winid) => GLFW.destroyWindow(winid);
 
-  var _glfwGetTime = () => GLFW.getTime() - GLFW.initialTime;
-
   
   
   var _glfwInit = () => {
@@ -7771,6 +7769,36 @@ function dbg(...args) {
       return WebGPU.mgrShaderModule.create(device.createShaderModule(desc));
     };
 
+  
+  var _wgpuDeviceCreateTexture = (deviceId, descriptor) => {
+      assert(descriptor);assert(HEAPU32[((descriptor)>>2)] === 0);
+  
+      var desc = {
+        "label": undefined,
+        "size": WebGPU.makeExtent3D(descriptor + 16),
+        "mipLevelCount": HEAPU32[(((descriptor)+(32))>>2)],
+        "sampleCount": HEAPU32[(((descriptor)+(36))>>2)],
+        "dimension": WebGPU.TextureDimension[
+          HEAPU32[(((descriptor)+(12))>>2)]],
+        "format": WebGPU.TextureFormat[
+          HEAPU32[(((descriptor)+(28))>>2)]],
+        "usage": HEAPU32[(((descriptor)+(8))>>2)],
+      };
+      var labelPtr = HEAPU32[(((descriptor)+(4))>>2)];
+      if (labelPtr) desc["label"] = UTF8ToString(labelPtr);
+  
+      var viewFormatCount = HEAPU32[(((descriptor)+(40))>>2)];
+      if (viewFormatCount) {
+        var viewFormatsPtr = HEAPU32[(((descriptor)+(44))>>2)];
+        // viewFormatsPtr pointer to an array of TextureFormat which is an enum of size uint32_t
+        desc["viewFormats"] = Array.from(HEAP32.subarray((((viewFormatsPtr)>>2)), ((viewFormatsPtr + viewFormatCount * 4)>>2)),
+          function(format) { return WebGPU.TextureFormat[format]; });
+      }
+  
+      var device = WebGPU.mgrDevice.get(deviceId);
+      return WebGPU.mgrTexture.create(device.createTexture(desc));
+    };
+
   var _wgpuDeviceGetQueue = (deviceId) => {
       var queueId = WebGPU.mgrDevice.objects[deviceId].queueId;
       assert(queueId, 'wgpuDeviceGetQueue: queue was missing or null');
@@ -8072,6 +8100,8 @@ function dbg(...args) {
       var texture = WebGPU.mgrTexture.get(textureId);
       return WebGPU.mgrTextureView.create(texture.createView(desc));
     };
+
+  var _wgpuTextureDestroy = (textureId) => WebGPU.mgrTexture.get(textureId).destroy();
 
   var _wgpuTextureGetFormat = (textureId) => {
       var texture = WebGPU.mgrTexture.get(textureId);
@@ -8454,8 +8484,6 @@ var wasmImports = {
   /** @export */
   glfwDestroyWindow: _glfwDestroyWindow,
   /** @export */
-  glfwGetTime: _glfwGetTime,
-  /** @export */
   glfwInit: _glfwInit,
   /** @export */
   glfwPollEvents: _glfwPollEvents,
@@ -8499,6 +8527,8 @@ var wasmImports = {
   wgpuDeviceCreateRenderPipeline: _wgpuDeviceCreateRenderPipeline,
   /** @export */
   wgpuDeviceCreateShaderModule: _wgpuDeviceCreateShaderModule,
+  /** @export */
+  wgpuDeviceCreateTexture: _wgpuDeviceCreateTexture,
   /** @export */
   wgpuDeviceGetQueue: _wgpuDeviceGetQueue,
   /** @export */
@@ -8547,6 +8577,8 @@ var wasmImports = {
   wgpuSurfaceUnconfigure: _wgpuSurfaceUnconfigure,
   /** @export */
   wgpuTextureCreateView: _wgpuTextureCreateView,
+  /** @export */
+  wgpuTextureDestroy: _wgpuTextureDestroy,
   /** @export */
   wgpuTextureGetFormat: _wgpuTextureGetFormat,
   /** @export */
