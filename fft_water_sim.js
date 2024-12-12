@@ -35,7 +35,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\misic\AppData\Local\Temp\tmpk29j03vz.js
+// include: C:\Users\misic\AppData\Local\Temp\tmp3fmpl20c.js
 
   if (!Module['expectedDataFileDownloads']) {
     Module['expectedDataFileDownloads'] = 0;
@@ -225,25 +225,25 @@ Module['FS_createPath']("/C:/Users/misic/source/repos/fft_water_sim_", "resource
     }
 
     }
-    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/shader.wgsl", "start": 0, "end": 1417}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 1417, "end": 1951}], "remote_package_size": 1951});
+    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/shader.wgsl", "start": 0, "end": 1808}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 1808, "end": 2342}], "remote_package_size": 2342});
 
   })();
 
-// end include: C:\Users\misic\AppData\Local\Temp\tmpk29j03vz.js
-// include: C:\Users\misic\AppData\Local\Temp\tmpngod2bpw.js
+// end include: C:\Users\misic\AppData\Local\Temp\tmp3fmpl20c.js
+// include: C:\Users\misic\AppData\Local\Temp\tmp9ds5ryr1.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\misic\AppData\Local\Temp\tmpngod2bpw.js
-// include: C:\Users\misic\AppData\Local\Temp\tmp0r8n9gzp.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmp9ds5ryr1.js
+// include: C:\Users\misic\AppData\Local\Temp\tmpwdknml90.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\misic\AppData\Local\Temp\tmp0r8n9gzp.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmpwdknml90.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -7947,6 +7947,19 @@ function dbg(...args) {
     ;
   }
 
+  var _wgpuQueueWriteTexture = (queueId,
+        destinationPtr, data, dataSize, dataLayoutPtr, writeSizePtr) => {
+      var queue = WebGPU.mgrQueue.get(queueId);
+  
+      var destination = WebGPU.makeImageCopyTexture(destinationPtr);
+      var dataLayout = WebGPU.makeTextureDataLayout(dataLayoutPtr);
+      var writeSize = WebGPU.makeExtent3D(writeSizePtr);
+      // This subarray isn't strictly necessary, but helps work around an issue
+      // where Chromium makes a copy of the entire heap. crbug.com/1134457
+      var subarray = HEAPU8.subarray(data, data + dataSize);
+      queue.writeTexture(destination, subarray, dataLayout, writeSize);
+    };
+
   var _wgpuRenderPassEncoderDrawIndexed = (passId, indexCount, instanceCount, firstIndex, baseVertex, firstInstance) => {
       var pass = WebGPU.mgrRenderPassEncoder.get(passId);
       pass.drawIndexed(indexCount, instanceCount, firstIndex, baseVertex, firstInstance);
@@ -8547,6 +8560,8 @@ var wasmImports = {
   wgpuQueueSubmit: _wgpuQueueSubmit,
   /** @export */
   wgpuQueueWriteBuffer: _wgpuQueueWriteBuffer,
+  /** @export */
+  wgpuQueueWriteTexture: _wgpuQueueWriteTexture,
   /** @export */
   wgpuRenderPassEncoderDrawIndexed: _wgpuRenderPassEncoderDrawIndexed,
   /** @export */
