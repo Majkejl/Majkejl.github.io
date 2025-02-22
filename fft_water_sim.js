@@ -35,7 +35,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\misic\AppData\Local\Temp\tmprtfgqw_u.js
+// include: C:\Users\misic\AppData\Local\Temp\tmpzwoh0a6_.js
 
   if (!Module['expectedDataFileDownloads']) {
     Module['expectedDataFileDownloads'] = 0;
@@ -225,25 +225,25 @@ Module['FS_createPath']("/C:/Users/misic/source/repos/fft_water_sim_", "resource
     }
 
     }
-    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/compute.wgsl", "start": 0, "end": 111}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/shader.wgsl", "start": 111, "end": 1871}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 1871, "end": 2405}], "remote_package_size": 2405});
+    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/compute.wgsl", "start": 0, "end": 607}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/shader.wgsl", "start": 607, "end": 2377}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 2377, "end": 2911}], "remote_package_size": 2911});
 
   })();
 
-// end include: C:\Users\misic\AppData\Local\Temp\tmprtfgqw_u.js
-// include: C:\Users\misic\AppData\Local\Temp\tmppx_d2p5b.js
+// end include: C:\Users\misic\AppData\Local\Temp\tmpzwoh0a6_.js
+// include: C:\Users\misic\AppData\Local\Temp\tmp0cj0bgp4.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\misic\AppData\Local\Temp\tmppx_d2p5b.js
-// include: C:\Users\misic\AppData\Local\Temp\tmpfb5x79jr.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmp0cj0bgp4.js
+// include: C:\Users\misic\AppData\Local\Temp\tmp0poq02w2.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\misic\AppData\Local\Temp\tmpfb5x79jr.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmp0poq02w2.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -6655,6 +6655,8 @@ function dbg(...args) {
 
   var _glfwDestroyWindow = (winid) => GLFW.destroyWindow(winid);
 
+  var _glfwGetTime = () => GLFW.getTime() - GLFW.initialTime;
+
   
   
   var _glfwInit = () => {
@@ -8615,6 +8617,8 @@ var wasmImports = {
   glfwCreateWindow: _glfwCreateWindow,
   /** @export */
   glfwDestroyWindow: _glfwDestroyWindow,
+  /** @export */
+  glfwGetTime: _glfwGetTime,
   /** @export */
   glfwInit: _glfwInit,
   /** @export */
