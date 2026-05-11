@@ -35,7 +35,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\misic\AppData\Local\Temp\tmp64x0afle.js
+// include: C:\Users\misic\AppData\Local\Temp\tmp4cn9sb1l.js
 
   if (!Module['expectedDataFileDownloads']) {
     Module['expectedDataFileDownloads'] = 0;
@@ -158,6 +158,7 @@ Module['FS_createPath']("/C:/Users/misic", "source", true, true);
 Module['FS_createPath']("/C:/Users/misic/source", "repos", true, true);
 Module['FS_createPath']("/C:/Users/misic/source/repos", "fft_water_sim_", true, true);
 Module['FS_createPath']("/C:/Users/misic/source/repos/fft_water_sim_", "resources", true, true);
+Module['FS_createPath']("/C:/Users/misic/source/repos/fft_water_sim_/resources", "Cubemap", true, true);
 
       /** @constructor */
       function DataRequest(start, end, audio) {
@@ -225,25 +226,25 @@ Module['FS_createPath']("/C:/Users/misic/source/repos/fft_water_sim_", "resource
     }
 
     }
-    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/compute.wgsl", "start": 0, "end": 1743}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/shader.wgsl", "start": 1743, "end": 3641}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 3641, "end": 4175}], "remote_package_size": 4175});
+    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_01-512x512.png", "start": 0, "end": 927558}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_02-512x512.png", "start": 927558, "end": 2155055}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_03-512x512.png", "start": 2155055, "end": 3163516}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_04-512x512.png", "start": 3163516, "end": 4289812}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_05-512x512.png", "start": 4289812, "end": 5437063}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_06-512x512.png", "start": 5437063, "end": 6051224}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_07-512x512.png", "start": 6051224, "end": 7121980}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_08-512x512.png", "start": 7121980, "end": 7944176}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_09-512x512.png", "start": 7944176, "end": 9087984}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_10-512x512.png", "start": 9087984, "end": 10086051}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_11-512x512.png", "start": 10086051, "end": 11000359}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_12-512x512.png", "start": 11000359, "end": 11667293}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_13-512x512.png", "start": 11667293, "end": 12604031}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_14-512x512.png", "start": 12604031, "end": 13495162}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_15-512x512.png", "start": 13495162, "end": 13939579}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_16-512x512.png", "start": 13939579, "end": 14800923}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_17-512x512.png", "start": 14800923, "end": 15378045}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_18-512x512.png", "start": 15378045, "end": 16110102}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_19-512x512.png", "start": 16110102, "end": 16750560}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_20-512x512.png", "start": 16750560, "end": 17341522}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_21-512x512.png", "start": 17341522, "end": 18253514}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_22-512x512.png", "start": 18253514, "end": 19024350}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_23-512x512.png", "start": 19024350, "end": 20483574}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_24-512x512.png", "start": 20483574, "end": 21619534}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_25-512x512.png", "start": 21619534, "end": 22537053}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/License.txt", "start": 22537053, "end": 22537994}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/fft.wgsl", "start": 22537994, "end": 22540420}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/shader.wgsl", "start": 22540420, "end": 22543509}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/skybox.wgsl", "start": 22543509, "end": 22544644}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/time_spectrum.wgsl", "start": 22544644, "end": 22546471}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/water.wgsl", "start": 22546471, "end": 22548882}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 22548882, "end": 22549416}], "remote_package_size": 22549416});
 
   })();
 
-// end include: C:\Users\misic\AppData\Local\Temp\tmp64x0afle.js
-// include: C:\Users\misic\AppData\Local\Temp\tmptiv3lut5.js
+// end include: C:\Users\misic\AppData\Local\Temp\tmp4cn9sb1l.js
+// include: C:\Users\misic\AppData\Local\Temp\tmppo0gofxu.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\misic\AppData\Local\Temp\tmptiv3lut5.js
-// include: C:\Users\misic\AppData\Local\Temp\tmpv72xhemq.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmppo0gofxu.js
+// include: C:\Users\misic\AppData\Local\Temp\tmpvy1ya0bo.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\misic\AppData\Local\Temp\tmpv72xhemq.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmpvy1ya0bo.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -4060,6 +4061,61 @@ function dbg(...args) {
   }
   }
 
+  var stringToUTF8 = (str, outPtr, maxBytesToWrite) => {
+      assert(typeof maxBytesToWrite == 'number', 'stringToUTF8(str, outPtr, maxBytesToWrite) is missing the third parameter that specifies the length of the output buffer!');
+      return stringToUTF8Array(str, HEAPU8, outPtr, maxBytesToWrite);
+    };
+  
+  function ___syscall_getdents64(fd, dirp, count) {
+  try {
+  
+      var stream = SYSCALLS.getStreamFromFD(fd)
+      stream.getdents ||= FS.readdir(stream.path);
+  
+      var struct_size = 280;
+      var pos = 0;
+      var off = FS.llseek(stream, 0, 1);
+  
+      var idx = Math.floor(off / struct_size);
+  
+      while (idx < stream.getdents.length && pos + struct_size <= count) {
+        var id;
+        var type;
+        var name = stream.getdents[idx];
+        if (name === '.') {
+          id = stream.node.id;
+          type = 4; // DT_DIR
+        }
+        else if (name === '..') {
+          var lookup = FS.lookupPath(stream.path, { parent: true });
+          id = lookup.node.id;
+          type = 4; // DT_DIR
+        }
+        else {
+          var child = FS.lookupNode(stream.node, name);
+          id = child.id;
+          type = FS.isChrdev(child.mode) ? 2 :  // DT_CHR, character device.
+                 FS.isDir(child.mode) ? 4 :     // DT_DIR, directory.
+                 FS.isLink(child.mode) ? 10 :   // DT_LNK, symbolic link.
+                 8;                             // DT_REG, regular file.
+        }
+        assert(id);
+        (tempI64 = [id>>>0,(tempDouble = id,(+(Math.abs(tempDouble))) >= 1.0 ? (tempDouble > 0.0 ? (+(Math.floor((tempDouble)/4294967296.0)))>>>0 : (~~((+(Math.ceil((tempDouble - +(((~~(tempDouble)))>>>0))/4294967296.0)))))>>>0) : 0)], HEAP32[((dirp + pos)>>2)] = tempI64[0],HEAP32[(((dirp + pos)+(4))>>2)] = tempI64[1]);
+        (tempI64 = [(idx + 1) * struct_size>>>0,(tempDouble = (idx + 1) * struct_size,(+(Math.abs(tempDouble))) >= 1.0 ? (tempDouble > 0.0 ? (+(Math.floor((tempDouble)/4294967296.0)))>>>0 : (~~((+(Math.ceil((tempDouble - +(((~~(tempDouble)))>>>0))/4294967296.0)))))>>>0) : 0)], HEAP32[(((dirp + pos)+(8))>>2)] = tempI64[0],HEAP32[(((dirp + pos)+(12))>>2)] = tempI64[1]);
+        HEAP16[(((dirp + pos)+(16))>>1)] = 280;
+        HEAP8[(dirp + pos)+(18)] = type;
+        stringToUTF8(name, dirp + pos + 19, 256);
+        pos += struct_size;
+        idx += 1;
+      }
+      FS.llseek(stream, idx * struct_size, 0);
+      return pos;
+    } catch (e) {
+    if (typeof FS == 'undefined' || !(e.name === 'ErrnoError')) throw e;
+    return -e.errno;
+  }
+  }
+
   
   function ___syscall_ioctl(fd, op, varargs) {
   SYSCALLS.varargs = varargs;
@@ -4177,10 +4233,6 @@ function dbg(...args) {
 
   var __emscripten_memcpy_js = (dest, src, num) => HEAPU8.copyWithin(dest, src, src + num);
 
-  var stringToUTF8 = (str, outPtr, maxBytesToWrite) => {
-      assert(typeof maxBytesToWrite == 'number', 'stringToUTF8(str, outPtr, maxBytesToWrite) is missing the third parameter that specifies the length of the output buffer!');
-      return stringToUTF8Array(str, HEAPU8, outPtr, maxBytesToWrite);
-    };
   
   var __tzset_js = (timezone, daylight, std_name, dst_name) => {
       // TODO: Use (malleable) environment variables instead of system settings.
@@ -5873,7 +5925,7 @@ function dbg(...args) {
         if (event.target != Module["canvas"] || !GLFW.active.cursorPosFunc) return;
   
         if (GLFW.active.cursorPosFunc) {
-          ((a1, a2, a3) => { throw 'Internal Error! Attempted to invoke wasm function pointer with signature "vidd", but no such functions have gotten exported!' })(GLFW.active.id, Browser.mouseX, Browser.mouseY);
+          ((a1, a2, a3) => dynCall_vidd(GLFW.active.cursorPosFunc, a1, a2, a3))(GLFW.active.id, Browser.mouseX, Browser.mouseY);
         }
       },
   DOMToGLFWMouseButton:(event) => {
@@ -5993,7 +6045,7 @@ function dbg(...args) {
           sx = event.deltaX;
         }
   
-        ((a1, a2, a3) => { throw 'Internal Error! Attempted to invoke wasm function pointer with signature "vidd", but no such functions have gotten exported!' })(GLFW.active.id, sx, sy);
+        ((a1, a2, a3) => dynCall_vidd(GLFW.active.scrollFunc, a1, a2, a3))(GLFW.active.id, sx, sy);
   
         event.preventDefault();
       },
@@ -6660,7 +6712,15 @@ function dbg(...args) {
 
   var _glfwDestroyWindow = (winid) => GLFW.destroyWindow(winid);
 
+  var _glfwGetCursorPos = (winid, x, y) => GLFW.getCursorPos(winid, x, y);
+
   var _glfwGetTime = () => GLFW.getTime() - GLFW.initialTime;
+
+  var _glfwGetWindowUserPointer = (winid) => {
+      var win = GLFW.WindowFromId(winid);
+      if (!win) return 0;
+      return win.userptr;
+    };
 
   
   
@@ -6716,6 +6776,18 @@ function dbg(...args) {
     };
 
   var _glfwPollEvents = () => {};
+
+  var _glfwSetCursorPosCallback = (winid, cbfun) => GLFW.setCursorPosCallback(winid, cbfun);
+
+  var _glfwSetMouseButtonCallback = (winid, cbfun) => GLFW.setMouseButtonCallback(winid, cbfun);
+
+  var _glfwSetScrollCallback = (winid, cbfun) => GLFW.setScrollCallback(winid, cbfun);
+
+  var _glfwSetWindowUserPointer = (winid, ptr) => {
+      var win = GLFW.WindowFromId(winid);
+      if (!win) return;
+      win.userptr = ptr;
+    };
 
   var _glfwTerminate = () => {
       window.removeEventListener("gamepadconnected", GLFW.onGamepadConnected, true);
@@ -8086,6 +8158,11 @@ function dbg(...args) {
       queue.writeTexture(destination, subarray, dataLayout, writeSize);
     };
 
+  var _wgpuRenderPassEncoderDraw = (passId, vertexCount, instanceCount, firstVertex, firstInstance) => {
+      var pass = WebGPU.mgrRenderPassEncoder.get(passId);
+      pass.draw(vertexCount, instanceCount, firstVertex, firstInstance);
+    };
+
   var _wgpuRenderPassEncoderDrawIndexed = (passId, indexCount, instanceCount, firstIndex, baseVertex, firstInstance) => {
       var pass = WebGPU.mgrRenderPassEncoder.get(passId);
       pass.drawIndexed(indexCount, instanceCount, firstIndex, baseVertex, firstInstance);
@@ -8145,6 +8222,8 @@ function dbg(...args) {
   }
 
   var _wgpuRenderPipelineRelease = (id) => WebGPU.mgrRenderPipeline.release(id);
+
+  var _wgpuSamplerRelease = (id) => WebGPU.mgrSampler.release(id);
 
   var _wgpuShaderModuleRelease = (id) => WebGPU.mgrShaderModule.release(id);
 
@@ -8589,6 +8668,8 @@ var wasmImports = {
   /** @export */
   __syscall_fcntl64: ___syscall_fcntl64,
   /** @export */
+  __syscall_getdents64: ___syscall_getdents64,
+  /** @export */
   __syscall_ioctl: ___syscall_ioctl,
   /** @export */
   __syscall_openat: ___syscall_openat,
@@ -8625,11 +8706,23 @@ var wasmImports = {
   /** @export */
   glfwDestroyWindow: _glfwDestroyWindow,
   /** @export */
+  glfwGetCursorPos: _glfwGetCursorPos,
+  /** @export */
   glfwGetTime: _glfwGetTime,
+  /** @export */
+  glfwGetWindowUserPointer: _glfwGetWindowUserPointer,
   /** @export */
   glfwInit: _glfwInit,
   /** @export */
   glfwPollEvents: _glfwPollEvents,
+  /** @export */
+  glfwSetCursorPosCallback: _glfwSetCursorPosCallback,
+  /** @export */
+  glfwSetMouseButtonCallback: _glfwSetMouseButtonCallback,
+  /** @export */
+  glfwSetScrollCallback: _glfwSetScrollCallback,
+  /** @export */
+  glfwSetWindowUserPointer: _glfwSetWindowUserPointer,
   /** @export */
   glfwTerminate: _glfwTerminate,
   /** @export */
@@ -8711,6 +8804,8 @@ var wasmImports = {
   /** @export */
   wgpuQueueWriteTexture: _wgpuQueueWriteTexture,
   /** @export */
+  wgpuRenderPassEncoderDraw: _wgpuRenderPassEncoderDraw,
+  /** @export */
   wgpuRenderPassEncoderDrawIndexed: _wgpuRenderPassEncoderDrawIndexed,
   /** @export */
   wgpuRenderPassEncoderEnd: _wgpuRenderPassEncoderEnd,
@@ -8726,6 +8821,8 @@ var wasmImports = {
   wgpuRenderPassEncoderSetVertexBuffer: _wgpuRenderPassEncoderSetVertexBuffer,
   /** @export */
   wgpuRenderPipelineRelease: _wgpuRenderPipelineRelease,
+  /** @export */
+  wgpuSamplerRelease: _wgpuSamplerRelease,
   /** @export */
   wgpuShaderModuleRelease: _wgpuShaderModuleRelease,
   /** @export */
@@ -8752,10 +8849,10 @@ var wasmImports = {
 var wasmExports = createWasm();
 var ___wasm_call_ctors = createExportWrapper('__wasm_call_ctors', 0);
 var _main = Module['_main'] = createExportWrapper('__main_argc_argv', 2);
+var _free = createExportWrapper('free', 1);
+var _malloc = createExportWrapper('malloc', 1);
 var _fflush = createExportWrapper('fflush', 1);
 var _strerror = createExportWrapper('strerror', 1);
-var _malloc = createExportWrapper('malloc', 1);
-var _free = createExportWrapper('free', 1);
 var _memalign = createExportWrapper('memalign', 2);
 var __emscripten_tempret_set = createExportWrapper('_emscripten_tempret_set', 1);
 var _emscripten_stack_init = () => (_emscripten_stack_init = wasmExports['emscripten_stack_init'])();
@@ -8768,14 +8865,15 @@ var _emscripten_stack_get_current = () => (_emscripten_stack_get_current = wasmE
 var dynCall_vi = Module['dynCall_vi'] = createExportWrapper('dynCall_vi', 2);
 var dynCall_viiii = Module['dynCall_viiii'] = createExportWrapper('dynCall_viiii', 5);
 var dynCall_viii = Module['dynCall_viii'] = createExportWrapper('dynCall_viii', 4);
+var dynCall_vidd = Module['dynCall_vidd'] = createExportWrapper('dynCall_vidd', 4);
 var dynCall_ii = Module['dynCall_ii'] = createExportWrapper('dynCall_ii', 2);
 var dynCall_vii = Module['dynCall_vii'] = createExportWrapper('dynCall_vii', 3);
 var dynCall_iii = Module['dynCall_iii'] = createExportWrapper('dynCall_iii', 3);
 var dynCall_v = Module['dynCall_v'] = createExportWrapper('dynCall_v', 1);
-var dynCall_jiji = Module['dynCall_jiji'] = createExportWrapper('dynCall_jiji', 5);
 var dynCall_iiii = Module['dynCall_iiii'] = createExportWrapper('dynCall_iiii', 4);
-var dynCall_viijii = Module['dynCall_viijii'] = createExportWrapper('dynCall_viijii', 7);
+var dynCall_jiji = Module['dynCall_jiji'] = createExportWrapper('dynCall_jiji', 5);
 var dynCall_iidiiii = Module['dynCall_iidiiii'] = createExportWrapper('dynCall_iidiiii', 7);
+var dynCall_viijii = Module['dynCall_viijii'] = createExportWrapper('dynCall_viijii', 7);
 var dynCall_iiiii = Module['dynCall_iiiii'] = createExportWrapper('dynCall_iiiii', 5);
 var dynCall_iiiiii = Module['dynCall_iiiiii'] = createExportWrapper('dynCall_iiiiii', 6);
 var dynCall_iiiiiiiii = Module['dynCall_iiiiiiiii'] = createExportWrapper('dynCall_iiiiiiiii', 9);
