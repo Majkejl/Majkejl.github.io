@@ -35,7 +35,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\misic\AppData\Local\Temp\tmp95hrln6t.js
+// include: C:\Users\misic\AppData\Local\Temp\tmpjmcxg052.js
 
   if (!Module['expectedDataFileDownloads']) {
     Module['expectedDataFileDownloads'] = 0;
@@ -226,25 +226,25 @@ Module['FS_createPath']("/C:/Users/misic/source/repos/fft_water_sim_/resources",
     }
 
     }
-    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_01-512x512.png", "start": 0, "end": 927558}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_02-512x512.png", "start": 927558, "end": 2155055}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_03-512x512.png", "start": 2155055, "end": 3163516}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_04-512x512.png", "start": 3163516, "end": 4289812}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_05-512x512.png", "start": 4289812, "end": 5437063}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_06-512x512.png", "start": 5437063, "end": 6051224}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_07-512x512.png", "start": 6051224, "end": 7121980}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_08-512x512.png", "start": 7121980, "end": 7944176}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_09-512x512.png", "start": 7944176, "end": 9087984}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_10-512x512.png", "start": 9087984, "end": 10086051}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_11-512x512.png", "start": 10086051, "end": 11000359}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_12-512x512.png", "start": 11000359, "end": 11667293}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_13-512x512.png", "start": 11667293, "end": 12604031}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_14-512x512.png", "start": 12604031, "end": 13495162}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_15-512x512.png", "start": 13495162, "end": 13939579}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_16-512x512.png", "start": 13939579, "end": 14800923}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_17-512x512.png", "start": 14800923, "end": 15378045}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_18-512x512.png", "start": 15378045, "end": 16110102}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_19-512x512.png", "start": 16110102, "end": 16750560}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_20-512x512.png", "start": 16750560, "end": 17341522}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_21-512x512.png", "start": 17341522, "end": 18253514}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_22-512x512.png", "start": 18253514, "end": 19024350}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_23-512x512.png", "start": 19024350, "end": 20483574}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_24-512x512.png", "start": 20483574, "end": 21619534}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_25-512x512.png", "start": 21619534, "end": 22537053}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/License.txt", "start": 22537053, "end": 22537994}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/fft.wgsl", "start": 22537994, "end": 22540420}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/shader.wgsl", "start": 22540420, "end": 22543509}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/skybox.wgsl", "start": 22543509, "end": 22544644}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/time_spectrum.wgsl", "start": 22544644, "end": 22546471}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/water.wgsl", "start": 22546471, "end": 22548882}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 22548882, "end": 22549416}], "remote_package_size": 22549416});
+    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_01-512x512.png", "start": 0, "end": 927558}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_02-512x512.png", "start": 927558, "end": 2155055}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_03-512x512.png", "start": 2155055, "end": 3163516}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_04-512x512.png", "start": 3163516, "end": 4289812}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_05-512x512.png", "start": 4289812, "end": 5437063}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_06-512x512.png", "start": 5437063, "end": 6051224}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_07-512x512.png", "start": 6051224, "end": 7121980}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_08-512x512.png", "start": 7121980, "end": 7944176}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_09-512x512.png", "start": 7944176, "end": 9087984}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_10-512x512.png", "start": 9087984, "end": 10086051}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_11-512x512.png", "start": 10086051, "end": 11000359}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_12-512x512.png", "start": 11000359, "end": 11667293}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_13-512x512.png", "start": 11667293, "end": 12604031}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_14-512x512.png", "start": 12604031, "end": 13495162}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_15-512x512.png", "start": 13495162, "end": 13939579}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_16-512x512.png", "start": 13939579, "end": 14800923}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_17-512x512.png", "start": 14800923, "end": 15378045}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_18-512x512.png", "start": 15378045, "end": 16110102}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_19-512x512.png", "start": 16110102, "end": 16750560}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_20-512x512.png", "start": 16750560, "end": 17341522}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_21-512x512.png", "start": 17341522, "end": 18253514}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_22-512x512.png", "start": 18253514, "end": 19024350}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_23-512x512.png", "start": 19024350, "end": 20483574}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_24-512x512.png", "start": 20483574, "end": 21619534}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_25-512x512.png", "start": 21619534, "end": 22537053}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/License.txt", "start": 22537053, "end": 22537994}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/fft.wgsl", "start": 22537994, "end": 22540430}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/foam.wgsl", "start": 22540430, "end": 22542119}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/foam_detail.jpg", "start": 22542119, "end": 23702864}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/skybox.wgsl", "start": 23702864, "end": 23703999}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/time_spectrum.wgsl", "start": 23703999, "end": 23706290}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/water.wgsl", "start": 23706290, "end": 23709607}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 23709607, "end": 23710141}], "remote_package_size": 23710141});
 
   })();
 
-// end include: C:\Users\misic\AppData\Local\Temp\tmp95hrln6t.js
-// include: C:\Users\misic\AppData\Local\Temp\tmp1c0s0c_6.js
+// end include: C:\Users\misic\AppData\Local\Temp\tmpjmcxg052.js
+// include: C:\Users\misic\AppData\Local\Temp\tmpnqh0ql5j.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\misic\AppData\Local\Temp\tmp1c0s0c_6.js
-// include: C:\Users\misic\AppData\Local\Temp\tmp36owg71a.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmpnqh0ql5j.js
+// include: C:\Users\misic\AppData\Local\Temp\tmpyllyydzb.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\misic\AppData\Local\Temp\tmp36owg71a.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmpyllyydzb.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -4686,6 +4686,210 @@ function dbg(...args) {
       setMainLoop(iterFunc, fps, simulateInfiniteLoop, arg);
     };
 
+  var JSEvents = {
+  removeAllEventListeners() {
+        while (JSEvents.eventHandlers.length) {
+          JSEvents._removeHandler(JSEvents.eventHandlers.length - 1);
+        }
+        JSEvents.deferredCalls = [];
+      },
+  inEventHandler:0,
+  deferredCalls:[],
+  deferCall(targetFunction, precedence, argsList) {
+        function arraysHaveEqualContent(arrA, arrB) {
+          if (arrA.length != arrB.length) return false;
+  
+          for (var i in arrA) {
+            if (arrA[i] != arrB[i]) return false;
+          }
+          return true;
+        }
+        // Test if the given call was already queued, and if so, don't add it again.
+        for (var call of JSEvents.deferredCalls) {
+          if (call.targetFunction == targetFunction && arraysHaveEqualContent(call.argsList, argsList)) {
+            return;
+          }
+        }
+        JSEvents.deferredCalls.push({
+          targetFunction,
+          precedence,
+          argsList
+        });
+  
+        JSEvents.deferredCalls.sort((x,y) => x.precedence < y.precedence);
+      },
+  removeDeferredCalls(targetFunction) {
+        JSEvents.deferredCalls = JSEvents.deferredCalls.filter((call) => call.targetFunction != targetFunction);
+      },
+  canPerformEventHandlerRequests() {
+        if (navigator.userActivation) {
+          // Verify against transient activation status from UserActivation API
+          // whether it is possible to perform a request here without needing to defer. See
+          // https://developer.mozilla.org/en-US/docs/Web/Security/User_activation#transient_activation
+          // and https://caniuse.com/mdn-api_useractivation
+          // At the time of writing, Firefox does not support this API: https://bugzilla.mozilla.org/show_bug.cgi?id=1791079
+          return navigator.userActivation.isActive;
+        }
+  
+        return JSEvents.inEventHandler && JSEvents.currentEventHandler.allowsDeferredCalls;
+      },
+  runDeferredCalls() {
+        if (!JSEvents.canPerformEventHandlerRequests()) {
+          return;
+        }
+        var deferredCalls = JSEvents.deferredCalls;
+        JSEvents.deferredCalls = [];
+        for (var call of deferredCalls) {
+          call.targetFunction(...call.argsList);
+        }
+      },
+  eventHandlers:[],
+  removeAllHandlersOnTarget:(target, eventTypeString) => {
+        for (var i = 0; i < JSEvents.eventHandlers.length; ++i) {
+          if (JSEvents.eventHandlers[i].target == target &&
+            (!eventTypeString || eventTypeString == JSEvents.eventHandlers[i].eventTypeString)) {
+             JSEvents._removeHandler(i--);
+           }
+        }
+      },
+  _removeHandler(i) {
+        var h = JSEvents.eventHandlers[i];
+        h.target.removeEventListener(h.eventTypeString, h.eventListenerFunc, h.useCapture);
+        JSEvents.eventHandlers.splice(i, 1);
+      },
+  registerOrRemoveHandler(eventHandler) {
+        if (!eventHandler.target) {
+          err('registerOrRemoveHandler: the target element for event handler registration does not exist, when processing the following event handler registration:');
+          console.dir(eventHandler);
+          return -4;
+        }
+        if (eventHandler.callbackfunc) {
+          eventHandler.eventListenerFunc = function(event) {
+            // Increment nesting count for the event handler.
+            ++JSEvents.inEventHandler;
+            JSEvents.currentEventHandler = eventHandler;
+            // Process any old deferred calls the user has placed.
+            JSEvents.runDeferredCalls();
+            // Process the actual event, calls back to user C code handler.
+            eventHandler.handlerFunc(event);
+            // Process any new deferred calls that were placed right now from this event handler.
+            JSEvents.runDeferredCalls();
+            // Out of event handler - restore nesting count.
+            --JSEvents.inEventHandler;
+          };
+  
+          eventHandler.target.addEventListener(eventHandler.eventTypeString,
+                                               eventHandler.eventListenerFunc,
+                                               eventHandler.useCapture);
+          JSEvents.eventHandlers.push(eventHandler);
+        } else {
+          for (var i = 0; i < JSEvents.eventHandlers.length; ++i) {
+            if (JSEvents.eventHandlers[i].target == eventHandler.target
+             && JSEvents.eventHandlers[i].eventTypeString == eventHandler.eventTypeString) {
+               JSEvents._removeHandler(i--);
+             }
+          }
+        }
+        return 0;
+      },
+  getNodeNameForTarget(target) {
+        if (!target) return '';
+        if (target == window) return '#window';
+        if (target == screen) return '#screen';
+        return target?.nodeName || '';
+      },
+  fullscreenEnabled() {
+        return document.fullscreenEnabled
+        // Safari 13.0.3 on macOS Catalina 10.15.1 still ships with prefixed webkitFullscreenEnabled.
+        // TODO: If Safari at some point ships with unprefixed version, update the version check above.
+        || document.webkitFullscreenEnabled
+         ;
+      },
+  };
+  
+  
+  
+  /** @type {Object} */
+  var specialHTMLTargets = [0, typeof document != 'undefined' ? document : 0, typeof window != 'undefined' ? window : 0];
+  var getBoundingClientRect = (e) => specialHTMLTargets.indexOf(e) < 0 ? e.getBoundingClientRect() : {'left':0,'top':0};
+  
+  var fillMouseEventData = (eventStruct, e, target) => {
+      assert(eventStruct % 4 == 0);
+      HEAPF64[((eventStruct)>>3)] = e.timeStamp;
+      var idx = ((eventStruct)>>2);
+      HEAP32[idx + 2] = e.screenX;
+      HEAP32[idx + 3] = e.screenY;
+      HEAP32[idx + 4] = e.clientX;
+      HEAP32[idx + 5] = e.clientY;
+      HEAP8[eventStruct + 24] = e.ctrlKey;
+      HEAP8[eventStruct + 25] = e.shiftKey;
+      HEAP8[eventStruct + 26] = e.altKey;
+      HEAP8[eventStruct + 27] = e.metaKey;
+      HEAP16[idx*2 + 14] = e.button;
+      HEAP16[idx*2 + 15] = e.buttons;
+  
+      HEAP32[idx + 8] = e["movementX"]
+        ;
+  
+      HEAP32[idx + 9] = e["movementY"]
+        ;
+  
+      // Note: rect contains doubles (truncated to placate SAFE_HEAP, which is the same behaviour when writing to HEAP32 anyway)
+      var rect = getBoundingClientRect(target);
+      HEAP32[idx + 10] = e.clientX - (rect.left | 0);
+      HEAP32[idx + 11] = e.clientY - (rect.top  | 0);
+  
+    };
+  
+  var maybeCStringToJsString = (cString) => {
+      // "cString > 2" checks if the input is a number, and isn't of the special
+      // values we accept here, EMSCRIPTEN_EVENT_TARGET_* (which map to 0, 1, 2).
+      // In other words, if cString > 2 then it's a pointer to a valid place in
+      // memory, and points to a C string.
+      return cString > 2 ? UTF8ToString(cString) : cString;
+    };
+  
+  var findEventTarget = (target) => {
+      target = maybeCStringToJsString(target);
+      var domElement = specialHTMLTargets[target] || (typeof document != 'undefined' ? document.querySelector(target) : undefined);
+      return domElement;
+    };
+  
+  var registerWheelEventCallback = (target, userData, useCapture, callbackfunc, eventTypeId, eventTypeString, targetThread) => {
+      JSEvents.wheelEvent ||= _malloc(96);
+  
+      // The DOM Level 3 events spec event 'wheel'
+      var wheelHandlerFunc = (e = event) => {
+        var wheelEvent = JSEvents.wheelEvent;
+        fillMouseEventData(wheelEvent, e, target);
+        HEAPF64[(((wheelEvent)+(64))>>3)] = e["deltaX"];
+        HEAPF64[(((wheelEvent)+(72))>>3)] = e["deltaY"];
+        HEAPF64[(((wheelEvent)+(80))>>3)] = e["deltaZ"];
+        HEAP32[(((wheelEvent)+(88))>>2)] = e["deltaMode"];
+        if (((a1, a2, a3) => dynCall_iiii(callbackfunc, a1, a2, a3))(eventTypeId, wheelEvent, userData)) e.preventDefault();
+      };
+  
+      var eventHandler = {
+        target,
+        allowsDeferredCalls: true,
+        eventTypeString,
+        callbackfunc,
+        handlerFunc: wheelHandlerFunc,
+        useCapture
+      };
+      return JSEvents.registerOrRemoveHandler(eventHandler);
+    };
+  
+  var _emscripten_set_wheel_callback_on_thread = (target, userData, useCapture, callbackfunc, targetThread) => {
+      target = findEventTarget(target);
+      if (!target) return -4;
+      if (typeof target.onwheel != 'undefined') {
+        return registerWheelEventCallback(target, userData, useCapture, callbackfunc, 9, "wheel", targetThread);
+      } else {
+        return -1;
+      }
+    };
+
   /** @param {number=} timeout */
   var safeSetTimeout = (func, timeout) => {
       
@@ -6776,13 +6980,85 @@ function dbg(...args) {
         return table[param];
       },
   };
+  var _glfwCreateStandardCursor = (shape) => {};
+
   var _glfwCreateWindow = (width, height, title, monitor, share) => GLFW.createWindow(width, height, title, monitor, share);
+
+  var _glfwDestroyCursor = (cursor) => {};
 
   var _glfwDestroyWindow = (winid) => GLFW.destroyWindow(winid);
 
+  var _glfwGetClipboardString = (win) => {};
+
   var _glfwGetCursorPos = (winid, x, y) => GLFW.getCursorPos(winid, x, y);
 
+  var _glfwGetFramebufferSize = (winid, width, height) => {
+      var ww = 0;
+      var wh = 0;
+  
+      var win = GLFW.WindowFromId(winid);
+      if (win) {
+        ww = win.framebufferWidth;
+        wh = win.framebufferHeight;
+      }
+  
+      if (width) {
+        HEAP32[((width)>>2)] = ww;
+      }
+  
+      if (height) {
+        HEAP32[((height)>>2)] = wh;
+      }
+    };
+
+  var _glfwGetInputMode = (winid, mode) => {
+      var win = GLFW.WindowFromId(winid);
+      if (!win) return;
+  
+      switch (mode) {
+        case 0x00033001: { // GLFW_CURSOR
+          if (Browser.pointerLock) {
+            win.inputModes[mode] = 0x00034003; // GLFW_CURSOR_DISABLED
+          } else {
+            win.inputModes[mode] = 0x00034001; // GLFW_CURSOR_NORMAL
+          }
+        }
+      }
+  
+      return win.inputModes[mode];
+    };
+
+  var _glfwGetJoystickAxes = (joy, count) => {
+      GLFW.refreshJoysticks();
+  
+      var state = GLFW.joys[joy];
+      if (!state || !state.axes) {
+        HEAP32[((count)>>2)] = 0;
+        return;
+      }
+  
+      HEAP32[((count)>>2)] = state.axesCount;
+      return state.axes;
+    };
+
+  var _glfwGetJoystickButtons = (joy, count) => {
+      GLFW.refreshJoysticks();
+  
+      var state = GLFW.joys[joy];
+      if (!state || !state.buttons) {
+        HEAP32[((count)>>2)] = 0;
+        return;
+      }
+  
+      HEAP32[((count)>>2)] = state.buttonsCount;
+      return state.buttons;
+    };
+
+  var _glfwGetKey = (winid, key) => GLFW.getKey(winid, key);
+
   var _glfwGetTime = () => GLFW.getTime() - GLFW.initialTime;
+
+  var _glfwGetWindowSize = (winid, width, height) => GLFW.getWindowSize(winid, width, height);
 
   var _glfwGetWindowUserPointer = (winid) => {
       var win = GLFW.WindowFromId(winid);
@@ -6845,11 +7121,53 @@ function dbg(...args) {
 
   var _glfwPollEvents = () => {};
 
+  var _glfwSetCharCallback = (winid, cbfun) => GLFW.setCharCallback(winid, cbfun);
+
+  var _glfwSetClipboardString = (win, string) => {};
+
+  var _glfwSetCursor = (winid, cursor) => {};
+
+  var _glfwSetCursorEnterCallback = (winid, cbfun) => {
+      var win = GLFW.WindowFromId(winid);
+      if (!win) return null;
+      var prevcbfun = win.cursorEnterFunc;
+      win.cursorEnterFunc = cbfun;
+      return prevcbfun;
+    };
+
+  var _glfwSetCursorPos = (winid, x, y) => GLFW.setCursorPos(winid, x, y);
+
   var _glfwSetCursorPosCallback = (winid, cbfun) => GLFW.setCursorPosCallback(winid, cbfun);
+
+  var _glfwSetErrorCallback = (cbfun) => {
+      var prevcbfun = GLFW.errorFunc;
+      GLFW.errorFunc = cbfun;
+      return prevcbfun;
+    };
+
+  var _glfwSetInputMode = (winid, mode, value) => {
+      GLFW.setInputMode(winid, mode, value);
+    };
+
+  var _glfwSetKeyCallback = (winid, cbfun) => GLFW.setKeyCallback(winid, cbfun);
+
+  var _glfwSetMonitorCallback = (cbfun) => {
+      var prevcbfun = GLFW.monitorFunc;
+      GLFW.monitorFunc = cbfun;
+      return prevcbfun;
+    };
 
   var _glfwSetMouseButtonCallback = (winid, cbfun) => GLFW.setMouseButtonCallback(winid, cbfun);
 
   var _glfwSetScrollCallback = (winid, cbfun) => GLFW.setScrollCallback(winid, cbfun);
+
+  var _glfwSetWindowFocusCallback = (winid, cbfun) => {
+      var win = GLFW.WindowFromId(winid);
+      if (!win) return null;
+      var prevcbfun = win.windowFocusFunc;
+      win.windowFocusFunc = cbfun;
+      return prevcbfun;
+    };
 
   var _glfwSetWindowUserPointer = (winid, ptr) => {
       var win = GLFW.WindowFromId(winid);
@@ -7299,6 +7617,19 @@ function dbg(...args) {
   var _wgpuBindGroupLayoutRelease = (id) => WebGPU.mgrBindGroupLayout.release(id);
 
   var _wgpuBindGroupRelease = (id) => WebGPU.mgrBindGroup.release(id);
+
+  var _wgpuBufferDestroy = (bufferId) => {
+      var bufferWrapper = WebGPU.mgrBuffer.objects[bufferId];
+      assert(typeof bufferWrapper != "undefined");
+      if (bufferWrapper.onUnmap) {
+        for (var i = 0; i < bufferWrapper.onUnmap.length; ++i) {
+          bufferWrapper.onUnmap[i]();
+        }
+        bufferWrapper.onUnmap = undefined;
+      }
+  
+      WebGPU.mgrBuffer.get(bufferId).destroy();
+    };
 
   
   /** @suppress {duplicate } */
@@ -8096,22 +8427,6 @@ function dbg(...args) {
       };
     };
 
-  var maybeCStringToJsString = (cString) => {
-      // "cString > 2" checks if the input is a number, and isn't of the special
-      // values we accept here, EMSCRIPTEN_EVENT_TARGET_* (which map to 0, 1, 2).
-      // In other words, if cString > 2 then it's a pointer to a valid place in
-      // memory, and points to a C string.
-      return cString > 2 ? UTF8ToString(cString) : cString;
-    };
-  
-  /** @type {Object} */
-  var specialHTMLTargets = [0, typeof document != 'undefined' ? document : 0, typeof window != 'undefined' ? window : 0];
-  /** @suppress {duplicate } */
-  var findEventTarget = (target) => {
-      target = maybeCStringToJsString(target);
-      var domElement = specialHTMLTargets[target] || (typeof document != 'undefined' ? document.querySelector(target) : undefined);
-      return domElement;
-    };
   var findCanvasEventTarget = findEventTarget;
   
   
@@ -8257,6 +8572,12 @@ function dbg(...args) {
       }
     };
 
+  var _wgpuRenderPassEncoderSetBlendConstant = (passId, colorPtr) => {
+      var pass = WebGPU.mgrRenderPassEncoder.get(passId);
+      var color = WebGPU.makeColor(colorPtr);
+      pass.setBlendConstant(color);
+    };
+
   
   function _wgpuRenderPassEncoderSetIndexBuffer(passId,bufferId,format,offset_low, offset_high,size_low, size_high) {
     var offset = convertI32PairToI53Checked(offset_low, offset_high);
@@ -8276,6 +8597,11 @@ function dbg(...args) {
       pass.setPipeline(pipeline);
     };
 
+  var _wgpuRenderPassEncoderSetScissorRect = (passId, x, y, w, h) => {
+      var pass = WebGPU.mgrRenderPassEncoder.get(passId);
+      pass.setScissorRect(x, y, w, h);
+    };
+
   
   function _wgpuRenderPassEncoderSetVertexBuffer(passId,slot,bufferId,offset_low, offset_high,size_low, size_high) {
     var offset = convertI32PairToI53Checked(offset_low, offset_high);
@@ -8288,6 +8614,11 @@ function dbg(...args) {
       pass.setVertexBuffer(slot, buffer, offset, size);
     ;
   }
+
+  var _wgpuRenderPassEncoderSetViewport = (passId, x, y, w, h, minDepth, maxDepth) => {
+      var pass = WebGPU.mgrRenderPassEncoder.get(passId);
+      pass.setViewport(x, y, w, h, minDepth, maxDepth);
+    };
 
   var _wgpuRenderPipelineRelease = (id) => WebGPU.mgrRenderPipeline.release(id);
 
@@ -8752,6 +9083,8 @@ var wasmImports = {
   /** @export */
   emscripten_set_main_loop_arg: _emscripten_set_main_loop_arg,
   /** @export */
+  emscripten_set_wheel_callback_on_thread: _emscripten_set_wheel_callback_on_thread,
+  /** @export */
   emscripten_sleep: _emscripten_sleep,
   /** @export */
   environ_get: _environ_get,
@@ -8770,13 +9103,31 @@ var wasmImports = {
   /** @export */
   getentropy: _getentropy,
   /** @export */
+  glfwCreateStandardCursor: _glfwCreateStandardCursor,
+  /** @export */
   glfwCreateWindow: _glfwCreateWindow,
+  /** @export */
+  glfwDestroyCursor: _glfwDestroyCursor,
   /** @export */
   glfwDestroyWindow: _glfwDestroyWindow,
   /** @export */
+  glfwGetClipboardString: _glfwGetClipboardString,
+  /** @export */
   glfwGetCursorPos: _glfwGetCursorPos,
   /** @export */
+  glfwGetFramebufferSize: _glfwGetFramebufferSize,
+  /** @export */
+  glfwGetInputMode: _glfwGetInputMode,
+  /** @export */
+  glfwGetJoystickAxes: _glfwGetJoystickAxes,
+  /** @export */
+  glfwGetJoystickButtons: _glfwGetJoystickButtons,
+  /** @export */
+  glfwGetKey: _glfwGetKey,
+  /** @export */
   glfwGetTime: _glfwGetTime,
+  /** @export */
+  glfwGetWindowSize: _glfwGetWindowSize,
   /** @export */
   glfwGetWindowUserPointer: _glfwGetWindowUserPointer,
   /** @export */
@@ -8784,11 +9135,31 @@ var wasmImports = {
   /** @export */
   glfwPollEvents: _glfwPollEvents,
   /** @export */
+  glfwSetCharCallback: _glfwSetCharCallback,
+  /** @export */
+  glfwSetClipboardString: _glfwSetClipboardString,
+  /** @export */
+  glfwSetCursor: _glfwSetCursor,
+  /** @export */
+  glfwSetCursorEnterCallback: _glfwSetCursorEnterCallback,
+  /** @export */
+  glfwSetCursorPos: _glfwSetCursorPos,
+  /** @export */
   glfwSetCursorPosCallback: _glfwSetCursorPosCallback,
+  /** @export */
+  glfwSetErrorCallback: _glfwSetErrorCallback,
+  /** @export */
+  glfwSetInputMode: _glfwSetInputMode,
+  /** @export */
+  glfwSetKeyCallback: _glfwSetKeyCallback,
+  /** @export */
+  glfwSetMonitorCallback: _glfwSetMonitorCallback,
   /** @export */
   glfwSetMouseButtonCallback: _glfwSetMouseButtonCallback,
   /** @export */
   glfwSetScrollCallback: _glfwSetScrollCallback,
+  /** @export */
+  glfwSetWindowFocusCallback: _glfwSetWindowFocusCallback,
   /** @export */
   glfwSetWindowUserPointer: _glfwSetWindowUserPointer,
   /** @export */
@@ -8805,6 +9176,8 @@ var wasmImports = {
   wgpuBindGroupLayoutRelease: _wgpuBindGroupLayoutRelease,
   /** @export */
   wgpuBindGroupRelease: _wgpuBindGroupRelease,
+  /** @export */
+  wgpuBufferDestroy: _wgpuBufferDestroy,
   /** @export */
   wgpuBufferGetSize: _wgpuBufferGetSize,
   /** @export */
@@ -8882,11 +9255,17 @@ var wasmImports = {
   /** @export */
   wgpuRenderPassEncoderSetBindGroup: _wgpuRenderPassEncoderSetBindGroup,
   /** @export */
+  wgpuRenderPassEncoderSetBlendConstant: _wgpuRenderPassEncoderSetBlendConstant,
+  /** @export */
   wgpuRenderPassEncoderSetIndexBuffer: _wgpuRenderPassEncoderSetIndexBuffer,
   /** @export */
   wgpuRenderPassEncoderSetPipeline: _wgpuRenderPassEncoderSetPipeline,
   /** @export */
+  wgpuRenderPassEncoderSetScissorRect: _wgpuRenderPassEncoderSetScissorRect,
+  /** @export */
   wgpuRenderPassEncoderSetVertexBuffer: _wgpuRenderPassEncoderSetVertexBuffer,
+  /** @export */
+  wgpuRenderPassEncoderSetViewport: _wgpuRenderPassEncoderSetViewport,
   /** @export */
   wgpuRenderPipelineRelease: _wgpuRenderPipelineRelease,
   /** @export */
@@ -8938,12 +9317,14 @@ var dynCall_ii = Module['dynCall_ii'] = createExportWrapper('dynCall_ii', 2);
 var dynCall_vii = Module['dynCall_vii'] = createExportWrapper('dynCall_vii', 3);
 var dynCall_iii = Module['dynCall_iii'] = createExportWrapper('dynCall_iii', 3);
 var dynCall_v = Module['dynCall_v'] = createExportWrapper('dynCall_v', 1);
+var dynCall_viiiiii = Module['dynCall_viiiiii'] = createExportWrapper('dynCall_viiiiii', 7);
+var dynCall_iiiiii = Module['dynCall_iiiiii'] = createExportWrapper('dynCall_iiiiii', 6);
 var dynCall_iiii = Module['dynCall_iiii'] = createExportWrapper('dynCall_iiii', 4);
+var dynCall_viiiii = Module['dynCall_viiiii'] = createExportWrapper('dynCall_viiiii', 6);
 var dynCall_jiji = Module['dynCall_jiji'] = createExportWrapper('dynCall_jiji', 5);
 var dynCall_iidiiii = Module['dynCall_iidiiii'] = createExportWrapper('dynCall_iidiiii', 7);
 var dynCall_viijii = Module['dynCall_viijii'] = createExportWrapper('dynCall_viijii', 7);
 var dynCall_iiiii = Module['dynCall_iiiii'] = createExportWrapper('dynCall_iiiii', 5);
-var dynCall_iiiiii = Module['dynCall_iiiiii'] = createExportWrapper('dynCall_iiiiii', 6);
 var dynCall_iiiiiiiii = Module['dynCall_iiiiiiiii'] = createExportWrapper('dynCall_iiiiiiiii', 9);
 var dynCall_iiiiiii = Module['dynCall_iiiiiii'] = createExportWrapper('dynCall_iiiiiii', 7);
 var dynCall_iiiiij = Module['dynCall_iiiiij'] = createExportWrapper('dynCall_iiiiij', 7);
@@ -8951,8 +9332,6 @@ var dynCall_iiiiid = Module['dynCall_iiiiid'] = createExportWrapper('dynCall_iii
 var dynCall_iiiiijj = Module['dynCall_iiiiijj'] = createExportWrapper('dynCall_iiiiijj', 9);
 var dynCall_iiiiiiii = Module['dynCall_iiiiiiii'] = createExportWrapper('dynCall_iiiiiiii', 8);
 var dynCall_iiiiiijj = Module['dynCall_iiiiiijj'] = createExportWrapper('dynCall_iiiiiijj', 10);
-var dynCall_viiiiii = Module['dynCall_viiiiii'] = createExportWrapper('dynCall_viiiiii', 7);
-var dynCall_viiiii = Module['dynCall_viiiii'] = createExportWrapper('dynCall_viiiii', 6);
 var _asyncify_start_unwind = createExportWrapper('asyncify_start_unwind', 1);
 var _asyncify_stop_unwind = createExportWrapper('asyncify_stop_unwind', 0);
 var _asyncify_start_rewind = createExportWrapper('asyncify_start_rewind', 1);
@@ -9027,10 +9406,7 @@ var missingLibrarySymbols = [
   'lengthBytesUTF32',
   'writeArrayToMemory',
   'registerKeyEventCallback',
-  'getBoundingClientRect',
-  'fillMouseEventData',
   'registerMouseEventCallback',
-  'registerWheelEventCallback',
   'registerUiEventCallback',
   'registerFocusEventCallback',
   'fillDeviceOrientationEventData',
@@ -9190,6 +9566,9 @@ var unexportedSymbols = [
   'maybeCStringToJsString',
   'findEventTarget',
   'findCanvasEventTarget',
+  'getBoundingClientRect',
+  'fillMouseEventData',
+  'registerWheelEventCallback',
   'currentFullscreenStrategy',
   'restoreOldWindowedStyle',
   'UNWIND_CACHE',
