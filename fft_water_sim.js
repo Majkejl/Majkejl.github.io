@@ -35,7 +35,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\misic\AppData\Local\Temp\tmpommmmnhw.js
+// include: C:\Users\misic\AppData\Local\Temp\tmp5tghmwrs.js
 
   if (!Module['expectedDataFileDownloads']) {
     Module['expectedDataFileDownloads'] = 0;
@@ -226,25 +226,25 @@ Module['FS_createPath']("/C:/Users/misic/source/repos/fft_water_sim_/resources",
     }
 
     }
-    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_01-512x512.png", "start": 0, "end": 927558}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_02-512x512.png", "start": 927558, "end": 2155055}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_03-512x512.png", "start": 2155055, "end": 3163516}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_04-512x512.png", "start": 3163516, "end": 4289812}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_05-512x512.png", "start": 4289812, "end": 5437063}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_06-512x512.png", "start": 5437063, "end": 6051224}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_07-512x512.png", "start": 6051224, "end": 7121980}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_08-512x512.png", "start": 7121980, "end": 7944176}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_09-512x512.png", "start": 7944176, "end": 9087984}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_10-512x512.png", "start": 9087984, "end": 10086051}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_11-512x512.png", "start": 10086051, "end": 11000359}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_12-512x512.png", "start": 11000359, "end": 11667293}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_13-512x512.png", "start": 11667293, "end": 12604031}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_14-512x512.png", "start": 12604031, "end": 13495162}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_15-512x512.png", "start": 13495162, "end": 13939579}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_16-512x512.png", "start": 13939579, "end": 14800923}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_17-512x512.png", "start": 14800923, "end": 15378045}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_18-512x512.png", "start": 15378045, "end": 16110102}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_19-512x512.png", "start": 16110102, "end": 16750560}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_20-512x512.png", "start": 16750560, "end": 17341522}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_21-512x512.png", "start": 17341522, "end": 18253514}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_22-512x512.png", "start": 18253514, "end": 19024350}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_23-512x512.png", "start": 19024350, "end": 20483574}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_24-512x512.png", "start": 20483574, "end": 21619534}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_25-512x512.png", "start": 21619534, "end": 22537053}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/License.txt", "start": 22537053, "end": 22537994}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/fft.wgsl", "start": 22537994, "end": 22540430}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/foam.wgsl", "start": 22540430, "end": 22542119}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/foam_detail.jpg", "start": 22542119, "end": 23702864}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/skybox.wgsl", "start": 23702864, "end": 23703999}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/time_spectrum.wgsl", "start": 23703999, "end": 23706290}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/water.wgsl", "start": 23706290, "end": 23709607}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 23709607, "end": 23710141}], "remote_package_size": 23710141});
+    loadPackage({"files": [{"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_01-512x512.png", "start": 0, "end": 927558}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_02-512x512.png", "start": 927558, "end": 2155055}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_03-512x512.png", "start": 2155055, "end": 3163516}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_04-512x512.png", "start": 3163516, "end": 4289812}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_05-512x512.png", "start": 4289812, "end": 5437063}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_06-512x512.png", "start": 5437063, "end": 6051224}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_07-512x512.png", "start": 6051224, "end": 7121980}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_08-512x512.png", "start": 7121980, "end": 7944176}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_09-512x512.png", "start": 7944176, "end": 9087984}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_10-512x512.png", "start": 9087984, "end": 10086051}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_11-512x512.png", "start": 10086051, "end": 11000359}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_12-512x512.png", "start": 11000359, "end": 11667293}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_13-512x512.png", "start": 11667293, "end": 12604031}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_14-512x512.png", "start": 12604031, "end": 13495162}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_15-512x512.png", "start": 13495162, "end": 13939579}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_16-512x512.png", "start": 13939579, "end": 14800923}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_17-512x512.png", "start": 14800923, "end": 15378045}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_18-512x512.png", "start": 15378045, "end": 16110102}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_19-512x512.png", "start": 16110102, "end": 16750560}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_20-512x512.png", "start": 16750560, "end": 17341522}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_21-512x512.png", "start": 17341522, "end": 18253514}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_22-512x512.png", "start": 18253514, "end": 19024350}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_23-512x512.png", "start": 19024350, "end": 20483574}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_24-512x512.png", "start": 20483574, "end": 21619534}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/Cubemap_Sky_25-512x512.png", "start": 21619534, "end": 22537053}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/Cubemap/License.txt", "start": 22537053, "end": 22537994}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/fft.wgsl", "start": 22537994, "end": 22540430}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/foam.wgsl", "start": 22540430, "end": 22542119}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/foam_detail.jpg", "start": 22542119, "end": 23702864}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/skybox.wgsl", "start": 23702864, "end": 23704007}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/time_spectrum.wgsl", "start": 23704007, "end": 23706298}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/water.wgsl", "start": 23706298, "end": 23709672}, {"filename": "C:/Users/misic/source/repos/fft_water_sim_/resources/webgpu.txt", "start": 23709672, "end": 23710206}], "remote_package_size": 23710206});
 
   })();
 
-// end include: C:\Users\misic\AppData\Local\Temp\tmpommmmnhw.js
-// include: C:\Users\misic\AppData\Local\Temp\tmp9dqdj6ga.js
+// end include: C:\Users\misic\AppData\Local\Temp\tmp5tghmwrs.js
+// include: C:\Users\misic\AppData\Local\Temp\tmp7ikgb6rx.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\misic\AppData\Local\Temp\tmp9dqdj6ga.js
-// include: C:\Users\misic\AppData\Local\Temp\tmpsrglqcz7.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmp7ikgb6rx.js
+// include: C:\Users\misic\AppData\Local\Temp\tmpjjiaftvo.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\misic\AppData\Local\Temp\tmpsrglqcz7.js
+  // end include: C:\Users\misic\AppData\Local\Temp\tmpjjiaftvo.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -7798,6 +7798,17 @@ function dbg(...args) {
       return WebGPU.mgrCommandBuffer.create(commandEncoder.finish());
     };
 
+  var _wgpuCommandEncoderPopDebugGroup = (encoderId) => {
+      var encoder = WebGPU.mgrCommandEncoder.get(encoderId);
+      encoder.popDebugGroup();
+    };
+
+  
+  var _wgpuCommandEncoderPushDebugGroup = (encoderId, groupLabelPtr) => {
+      var encoder = WebGPU.mgrCommandEncoder.get(encoderId);
+      encoder.pushDebugGroup(UTF8ToString(groupLabelPtr));
+    };
+
   var _wgpuCommandEncoderRelease = (id) => WebGPU.mgrCommandEncoder.release(id);
 
   var _wgpuComputePassEncoderDispatchWorkgroups = (passId, x, y, z) => {
@@ -7808,6 +7819,17 @@ function dbg(...args) {
   var _wgpuComputePassEncoderEnd = (passId) => {
       var pass = WebGPU.mgrComputePassEncoder.get(passId);
       pass.end();
+    };
+
+  var _wgpuComputePassEncoderPopDebugGroup = (encoderId) => {
+      var encoder = WebGPU.mgrComputePassEncoder.get(encoderId);
+      encoder.popDebugGroup();
+    };
+
+  
+  var _wgpuComputePassEncoderPushDebugGroup = (encoderId, groupLabelPtr) => {
+      var encoder = WebGPU.mgrComputePassEncoder.get(encoderId);
+      encoder.pushDebugGroup(UTF8ToString(groupLabelPtr));
     };
 
   var _wgpuComputePassEncoderRelease = (id) => WebGPU.mgrComputePassEncoder.release(id);
@@ -8556,6 +8578,17 @@ function dbg(...args) {
       encoder.end();
     };
 
+  var _wgpuRenderPassEncoderPopDebugGroup = (encoderId) => {
+      var encoder = WebGPU.mgrRenderPassEncoder.get(encoderId);
+      encoder.popDebugGroup();
+    };
+
+  
+  var _wgpuRenderPassEncoderPushDebugGroup = (encoderId, groupLabelPtr) => {
+      var encoder = WebGPU.mgrRenderPassEncoder.get(encoderId);
+      encoder.pushDebugGroup(UTF8ToString(groupLabelPtr));
+    };
+
   var _wgpuRenderPassEncoderRelease = (id) => WebGPU.mgrRenderPassEncoder.release(id);
 
   var _wgpuRenderPassEncoderSetBindGroup = (passId, groupIndex, groupId, dynamicOffsetCount, dynamicOffsetsPtr) => {
@@ -9191,11 +9224,19 @@ var wasmImports = {
   /** @export */
   wgpuCommandEncoderFinish: _wgpuCommandEncoderFinish,
   /** @export */
+  wgpuCommandEncoderPopDebugGroup: _wgpuCommandEncoderPopDebugGroup,
+  /** @export */
+  wgpuCommandEncoderPushDebugGroup: _wgpuCommandEncoderPushDebugGroup,
+  /** @export */
   wgpuCommandEncoderRelease: _wgpuCommandEncoderRelease,
   /** @export */
   wgpuComputePassEncoderDispatchWorkgroups: _wgpuComputePassEncoderDispatchWorkgroups,
   /** @export */
   wgpuComputePassEncoderEnd: _wgpuComputePassEncoderEnd,
+  /** @export */
+  wgpuComputePassEncoderPopDebugGroup: _wgpuComputePassEncoderPopDebugGroup,
+  /** @export */
+  wgpuComputePassEncoderPushDebugGroup: _wgpuComputePassEncoderPushDebugGroup,
   /** @export */
   wgpuComputePassEncoderRelease: _wgpuComputePassEncoderRelease,
   /** @export */
@@ -9250,6 +9291,10 @@ var wasmImports = {
   wgpuRenderPassEncoderDrawIndexed: _wgpuRenderPassEncoderDrawIndexed,
   /** @export */
   wgpuRenderPassEncoderEnd: _wgpuRenderPassEncoderEnd,
+  /** @export */
+  wgpuRenderPassEncoderPopDebugGroup: _wgpuRenderPassEncoderPopDebugGroup,
+  /** @export */
+  wgpuRenderPassEncoderPushDebugGroup: _wgpuRenderPassEncoderPushDebugGroup,
   /** @export */
   wgpuRenderPassEncoderRelease: _wgpuRenderPassEncoderRelease,
   /** @export */
